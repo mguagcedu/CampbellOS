@@ -1,0 +1,187 @@
+.frontdesk-page {
+  max-width: 980px;
+  margin: 0 auto;
+  padding-top: 1.25rem;
+}
+
+.frontdesk-header h1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #12254a;
+  margin-bottom: 0.25rem;
+}
+
+.frontdesk-header p {
+  font-size: 0.9rem;
+  color: #616a86;
+  margin: 0 0 1rem;
+}
+
+.frontdesk-office-name {
+  font-weight: 600;
+  color: #0b4ba8;
+}
+
+/* Card shell */
+
+.frontdesk-card {
+  background: #ffffff;
+  border-radius: 1.1rem;
+  padding: 1.2rem 1.4rem 1rem;
+  box-shadow:
+    0 12px 30px rgba(15, 35, 80, 0.06),
+    0 0 0 1px rgba(15, 35, 80, 0.03);
+}
+
+/* Card header */
+
+.frontdesk-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.85rem;
+}
+
+.frontdesk-card-header h2 {
+  font-size: 1rem;
+  margin: 0;
+  color: #17254a;
+}
+
+.frontdesk-subtitle {
+  font-size: 0.8rem;
+  color: #7a81a0;
+}
+
+/* Buttons */
+
+.frontdesk-btn {
+  border: none;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  padding: 0.4rem 0.95rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.frontdesk-btn-primary {
+  background: linear-gradient(135deg, #0052cc, #2675ff);
+  color: #ffffff;
+  box-shadow: 0 6px 18px rgba(0, 82, 204, 0.35);
+}
+
+.frontdesk-btn-primary:hover {
+  filter: brightness(1.03);
+}
+
+/* Table */
+
+.frontdesk-table-wrapper {
+  border-radius: 0.85rem;
+  overflow: hidden;
+  border: 1px solid #e0e4f2;
+}
+
+.frontdesk-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.86rem;
+  background: #ffffff;
+}
+
+.frontdesk-table thead {
+  background: #f5f7ff;
+}
+
+.frontdesk-table th,
+.frontdesk-table td {
+  padding: 0.55rem 0.75rem;
+  text-align: left;
+}
+
+.frontdesk-table th {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #7a81a0;
+}
+
+.frontdesk-table tbody tr:nth-child(even) {
+  background: #fbfcff;
+}
+
+.frontdesk-table tbody tr:hover {
+  background: #f0f4ff;
+}
+
+/* Columns */
+
+.frontdesk-time {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  color: #37405e;
+}
+
+.frontdesk-patient {
+  font-weight: 600;
+  color: #17254a;
+}
+
+.frontdesk-reason {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #4f5774;
+}
+
+.frontdesk-status {
+  color: #37405e;
+}
+
+/* Pills */
+
+.frontdesk-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.05rem 0.45rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: #ffe8f0;
+  color: #b53465;
+}
+
+/* Legend */
+
+.frontdesk-footer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 0.7rem;
+  font-size: 0.78rem;
+  color: #7a81a0;
+}
+
+.frontdesk-footer .dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 999px;
+  display: inline-block;
+  margin-right: 0.25rem;
+}
+
+.dot-new {
+  background: #1fd1a1;
+}
+
+.dot-emergency {
+  background: #ff5c5c;
+}
+
+.dot-recall {
+  background: #f6c14f;
+}
